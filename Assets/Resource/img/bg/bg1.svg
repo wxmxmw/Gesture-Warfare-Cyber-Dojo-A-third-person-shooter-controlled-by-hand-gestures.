@@ -1,0 +1,232 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 渐变定义 -->
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a2e;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#533483;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="groundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a3a;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0d0d1f;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="neonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#0080ff;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#0040ff;stop-opacity:0" />
+    </radialGradient>
+    
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d2d5f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a3a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 网格图案 -->
+    <pattern id="gridPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00ffff" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+    
+    <!-- 数据流效果 -->
+    <pattern id="dataStream" x="0" y="0" width="20" height="100" patternUnits="userSpaceOnUse">
+      <rect width="20" height="100" fill="#0a0a2e"/>
+      <text x="10" y="20" font-family="monospace" font-size="8" fill="#00ff88" opacity="0.6" text-anchor="middle">1</text>
+      <text x="10" y="40" font-family="monospace" font-size="8" fill="#00ff88" opacity="0.4" text-anchor="middle">0</text>
+      <text x="10" y="60" font-family="monospace" font-size="8" fill="#00ff88" opacity="0.6" text-anchor="middle">1</text>
+      <text x="10" y="80" font-family="monospace" font-size="8" fill="#00ff88" opacity="0.3" text-anchor="middle">1</text>
+    </pattern>
+  </defs>
+  
+  <!-- 背景天空 -->
+  <rect width="1920" height="1080" fill="url(#skyGradient)"/>
+  
+  <!-- 远景城市轮廓 -->
+  <g id="cityscape">
+    <!-- 远景建筑群 -->
+    <rect x="0" y="200" width="200" height="400" fill="url(#buildingGradient)" opacity="0.6"/>
+    <rect x="180" y="150" width="150" height="450" fill="url(#buildingGradient)" opacity="0.5"/>
+    <rect x="310" y="180" width="120" height="420" fill="url(#buildingGradient)" opacity="0.6"/>
+    <rect x="410" y="120" width="180" height="480" fill="url(#buildingGradient)" opacity="0.4"/>
+    <rect x="570" y="160" width="140" height="440" fill="url(#buildingGradient)" opacity="0.5"/>
+    <rect x="690" y="100" width="200" height="500" fill="url(#buildingGradient)" opacity="0.6"/>
+    <rect x="870" y="140" width="160" height="460" fill="url(#buildingGradient)" opacity="0.5"/>
+    <rect x="1010" y="110" width="190" height="490" fill="url(#buildingGradient)" opacity="0.4"/>
+    <rect x="1180" y="170" width="130" height="430" fill="url(#buildingGradient)" opacity="0.6"/>
+    <rect x="1290" y="130" width="170" height="470" fill="url(#buildingGradient)" opacity="0.5"/>
+    <rect x="1440" y="90" width="220" height="510" fill="url(#buildingGradient)" opacity="0.4"/>
+    <rect x="1640" y="160" width="150" height="440" fill="url(#buildingGradient)" opacity="0.5"/>
+    <rect x="1770" y="120" width="150" height="480" fill="url(#buildingGradient)" opacity="0.6"/>
+    
+    <!-- 建筑霓虹灯效果 -->
+    <rect x="50" y="250" width="4" height="300" fill="#ff6600" opacity="0.8"/>
+    <rect x="250" y="200" width="4" height="350" fill="#00ffff" opacity="0.8"/>
+    <rect x="450" y="170" width="4" height="380" fill="#ff0080" opacity="0.8"/>
+    <rect x="720" y="150" width="4" height="400" fill="#00ff88" opacity="0.8"/>
+    <rect x="1050" y="160" width="4" height="390" fill="#8800ff" opacity="0.8"/>
+    <rect x="1350" y="180" width="4" height="370" fill="#ffff00" opacity="0.8"/>
+    <rect x="1550" y="140" width="4" height="410" fill="#ff6600" opacity="0.8"/>
+    <rect x="1800" y="170" width="4" height="380" fill="#00ffff" opacity="0.8"/>
+  </g>
+  
+  <!-- 中景训练设施 -->
+  <g id="trainingFacilities">
+    <!-- 训练平台 -->
+    <g id="trainingPlatforms">
+      <!-- 空中平台1 (左中) - 支撑柱在地面之前渲染 -->
+      <g id="aerialPlatform1">
+        <!-- 支撑柱 (会被地面遮挡) -->
+        <rect x="570" y="515" width="3" height="365" fill="#4080ff" opacity="0.4"/>
+        <rect x="580" y="515" width="3" height="365" fill="#4080ff" opacity="0.3"/>
+      </g>
+      
+      <!-- 空中平台2 (右中) - 支撑柱在地面之前渲染 -->
+      <g id="aerialPlatform2">
+        <!-- 支撑柱 (会被地面遮挡) -->
+        <rect x="1175" y="468" width="3" height="412" fill="#4080ff" opacity="0.4"/>
+        <rect x="1185" y="468" width="3" height="412" fill="#4080ff" opacity="0.3"/>
+      </g>
+    </g>
+    
+    <!-- 能量柱 -->
+    <rect x="150" y="400" width="20" height="200" fill="url(#neonGlow)" opacity="0.6"/>
+    <rect x="800" y="380" width="20" height="220" fill="url(#neonGlow)" opacity="0.6"/>
+    <rect x="1400" y="420" width="20" height="180" fill="url(#neonGlow)" opacity="0.6"/>
+  </g>
+  
+  <!-- 地面 -->
+  <rect x="0" y="600" width="1920" height="480" fill="url(#groundGradient)"/>
+  
+  <!-- 网格地面 -->
+  <rect x="0" y="600" width="1920" height="480" fill="url(#gridPattern)" opacity="0.4"/>
+  
+  <!-- 训练平台 (渲染在地面之上) -->
+  <g id="trainingPlatformsTop">
+    <!-- 地面平台1 (左侧 - 近景) -->
+     <g id="groundPlatform1">
+       <rect x="250" y="900" width="220" height="35" fill="url(#platformGradient)" stroke="#4080ff" stroke-width="3" opacity="0.9"/>
+       <line x1="260" y1="910" x2="460" y2="910" stroke="#4080ff" stroke-width="2" opacity="0.7"/>
+       <line x1="260" y1="925" x2="460" y2="925" stroke="#4080ff" stroke-width="2" opacity="0.7"/>
+     </g>
+     
+     <!-- 地面平台2 (中央 - 中景) -->
+     <g id="groundPlatform2">
+       <rect x="860" y="780" width="200" height="25" fill="url(#platformGradient)" stroke="#4080ff" stroke-width="2" opacity="0.8"/>
+       <line x1="870" y1="788" x2="1050" y2="788" stroke="#4080ff" stroke-width="1.5" opacity="0.6"/>
+       <line x1="870" y1="797" x2="1050" y2="797" stroke="#4080ff" stroke-width="1.5" opacity="0.6"/>
+     </g>
+     
+     <!-- 地面平台3 (右侧 - 远景) -->
+     <g id="groundPlatform3">
+       <rect x="1350" y="720" width="140" height="15" fill="url(#platformGradient)" stroke="#4080ff" stroke-width="1.5" opacity="0.7"/>
+       <line x1="1360" y1="725" x2="1480" y2="725" stroke="#4080ff" stroke-width="1" opacity="0.5"/>
+       <line x1="1360" y1="730" x2="1480" y2="730" stroke="#4080ff" stroke-width="1" opacity="0.5"/>
+     </g>
+    
+    <!-- 空中平台1 (左中) -->
+    <g id="aerialPlatform1Top">
+      <rect x="500" y="500" width="150" height="15" fill="url(#platformGradient)" stroke="#4080ff" stroke-width="2" opacity="0.8"/>
+      <line x1="510" y1="505" x2="640" y2="505" stroke="#4080ff" stroke-width="1" opacity="0.6"/>
+      <line x1="510" y1="510" x2="640" y2="510" stroke="#4080ff" stroke-width="1" opacity="0.6"/>
+    </g>
+    
+    <!-- 空中平台2 (右中) -->
+    <g id="aerialPlatform2Top">
+      <rect x="1100" y="450" width="160" height="18" fill="url(#platformGradient)" stroke="#4080ff" stroke-width="2" opacity="0.8"/>
+      <line x1="1110" y1="456" x2="1250" y2="456" stroke="#4080ff" stroke-width="1" opacity="0.6"/>
+      <line x1="1110" y1="462" x2="1250" y2="462" stroke="#4080ff" stroke-width="1" opacity="0.6"/>
+    </g>
+    
+    <!-- 平台间连接能量线 -->
+     <g id="platformConnections" stroke-dasharray="5,5" opacity="0.4">
+       <line x1="470" y1="917" x2="860" y2="792" stroke="#4080ff" stroke-width="1">
+         <animate attributeName="stroke-dashoffset" values="0;10" dur="2s" repeatCount="indefinite"/>
+       </line>
+       <line x1="1060" y1="792" x2="1350" y2="727" stroke="#4080ff" stroke-width="1">
+         <animate attributeName="stroke-dashoffset" values="0;10" dur="2s" repeatCount="indefinite"/>
+       </line>
+       <line x1="575" y1="515" x2="360" y2="910" stroke="#4080ff" stroke-width="1">
+         <animate attributeName="stroke-dashoffset" values="0;10" dur="2.5s" repeatCount="indefinite"/>
+       </line>
+       <line x1="1180" y1="459" x2="930" y2="792" stroke="#4080ff" stroke-width="1">
+         <animate attributeName="stroke-dashoffset" values="0;10" dur="2.5s" repeatCount="indefinite"/>
+       </line>
+     </g>
+  </g>
+  
+  <!-- 透视网格线 -->
+  <g id="perspectiveGrid" stroke="#00ffff" stroke-width="1" opacity="0.3" fill="none">
+    <!-- 水平线 -->
+    <line x1="0" y1="650" x2="1920" y2="650"/>
+    <line x1="0" y1="700" x2="1920" y2="700"/>
+    <line x1="0" y1="750" x2="1920" y2="750"/>
+    <line x1="0" y1="800" x2="1920" y2="800"/>
+    <line x1="0" y1="850" x2="1920" y2="850"/>
+    <line x1="0" y1="900" x2="1920" y2="900"/>
+    <line x1="0" y1="950" x2="1920" y2="950"/>
+    <line x1="0" y1="1000" x2="1920" y2="1000"/>
+    
+    <!-- 透视线 -->
+    <line x1="960" y1="600" x2="0" y2="1080"/>
+    <line x1="960" y1="600" x2="480" y2="1080"/>
+    <line x1="960" y1="600" x2="960" y2="1080"/>
+    <line x1="960" y1="600" x2="1440" y2="1080"/>
+    <line x1="960" y1="600" x2="1920" y2="1080"/>
+  </g>
+  
+  <!-- 数据流效果 -->
+  <rect x="0" y="0" width="100" height="1080" fill="url(#dataStream)" opacity="0.3"/>
+  <rect x="1820" y="0" width="100" height="1080" fill="url(#dataStream)" opacity="0.3"/>
+  
+  <!-- 前景装饰元素 -->
+  <g id="foregroundElements">
+    <!-- 能量指示器 -->
+    <circle cx="100" cy="650" r="15" fill="none" stroke="#00ff88" stroke-width="3" opacity="0.8"/>
+    <circle cx="100" cy="650" r="8" fill="#00ff88" opacity="0.6"/>
+    
+    <circle cx="1800" cy="680" r="12" fill="none" stroke="#8800ff" stroke-width="3" opacity="0.8"/>
+    <circle cx="1800" cy="680" r="6" fill="#8800ff" opacity="0.6"/>
+    
+    <!-- 扫描线效果 -->
+    <line x1="0" y1="540" x2="1920" y2="540" stroke="#00ffff" stroke-width="2" opacity="0.5">
+      <animate attributeName="y1" values="540;580;540" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="540;580;540" dur="3s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- 粒子效果 -->
+  <g id="particles">
+    <circle cx="300" cy="300" r="2" fill="#00ffff" opacity="0.8">
+      <animate attributeName="cy" values="300;320;300" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="250" r="1.5" fill="#ff6600" opacity="0.7">
+      <animate attributeName="cy" values="250;270;250" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1200" cy="280" r="2" fill="#00ff88" opacity="0.6">
+      <animate attributeName="cy" values="280;300;280" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1500" cy="320" r="1.5" fill="#8800ff" opacity="0.8">
+      <animate attributeName="cy" values="320;340;320" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- HUD元素 -->
+  <g id="hudElements" opacity="0.7">
+    <!-- 右上角雷达 -->
+    <circle cx="1800" cy="80" r="40" fill="none" stroke="#00ffff" stroke-width="1"/>
+    <circle cx="1800" cy="80" r="25" fill="none" stroke="#00ffff" stroke-width="0.5" opacity="0.5"/>
+    <circle cx="1800" cy="80" r="10" fill="none" stroke="#00ffff" stroke-width="0.5" opacity="0.5"/>
+    <line x1="1800" y1="40" x2="1800" y2="120" stroke="#00ffff" stroke-width="0.5" opacity="0.5"/>
+    <line x1="1760" y1="80" x2="1840" y2="80" stroke="#00ffff" stroke-width="0.5" opacity="0.5"/>
+    
+    <!-- 扫描扇形 -->
+    <path d="M 1800 80 L 1820 60 A 40 40 0 0 1 1830 90 Z" fill="#00ffff" opacity="0.2">
+      <animateTransform attributeName="transform" type="rotate" values="0 1800 80;360 1800 80" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

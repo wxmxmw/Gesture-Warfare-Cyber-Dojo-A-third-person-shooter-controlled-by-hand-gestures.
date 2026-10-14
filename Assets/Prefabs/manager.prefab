@@ -1,0 +1,1804 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &910703569462541075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4391389622336848690}
+  - component: {fileID: 6506858683444469510}
+  m_Layer: 0
+  m_Name: crosshairEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4391389622336848690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910703569462541075}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2395785891151781308}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6506858683444469510
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910703569462541075}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 531e9e8793bf499418e257590d072670, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 1
+  m_Size: {x: 30, y: 30}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1511239167816546689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2395785891151781308}
+  - component: {fileID: 5430011186169409084}
+  - component: {fileID: 6570760090737996506}
+  - component: {fileID: 2970515221962788686}
+  m_Layer: 0
+  m_Name: crosshaiTarget
+  m_TagString: PlayerAttack
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2395785891151781308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511239167816546689}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 344, y: 277.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2198608975333849687}
+  - {fileID: 4391389622336848690}
+  m_Father: {fileID: 4797173059401887938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &5430011186169409084
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511239167816546689}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 50
+--- !u!50 &6570760090737996506
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511239167816546689}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &2970515221962788686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511239167816546689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e5f4e4726cc7e478f7b52fa46df2e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+--- !u!1 &1766472219477471912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7947996569663739004}
+  m_Layer: 0
+  m_Name: spawner6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7947996569663739004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766472219477471912}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50, y: 500, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4797173059401887938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1935608292067141039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4731542495456823571}
+  m_Layer: 0
+  m_Name: spawner1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4731542495456823571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935608292067141039}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 127, y: 152, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4797173059401887938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2197790003269603535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2860428928406737257}
+  m_Layer: 0
+  m_Name: spawner5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2860428928406737257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2197790003269603535}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 400, y: 312, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4797173059401887938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3343501647767079432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7312217231372624154}
+  m_Layer: 0
+  m_Name: spawner4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7312217231372624154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3343501647767079432}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 762, y: 24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4797173059401887938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5164336036775892174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2198608975333849687}
+  - component: {fileID: 4771555818877183184}
+  m_Layer: 0
+  m_Name: crosshairRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2198608975333849687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164336036775892174}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2395785891151781308}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4771555818877183184
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164336036775892174}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: d0c258ead4814e34bb25ac394a79b7bd, type: 3}
+  m_Color: {r: 0.9245283, g: 0.76063275, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 1
+  m_Size: {x: 100, y: 100}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &5435641247216383032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5062855125606849557}
+  m_Layer: 0
+  m_Name: spawner3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5062855125606849557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435641247216383032}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 423, y: 105, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4797173059401887938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5671792309060935273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8286304895010461499}
+  m_Layer: 0
+  m_Name: spawner2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8286304895010461499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5671792309060935273}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 288, y: 351, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4797173059401887938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5780386699984596613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4797173059401887938}
+  - component: {fileID: 3740770765440757391}
+  - component: {fileID: 4746589906829721990}
+  - component: {fileID: 6306974332543087764}
+  - component: {fileID: 7019682600387450872}
+  - component: {fileID: 8723428982120831953}
+  - component: {fileID: 8112448415835346791}
+  - component: {fileID: 4845956619188987444}
+  m_Layer: 0
+  m_Name: manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4797173059401887938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5780386699984596613}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4731542495456823571}
+  - {fileID: 8286304895010461499}
+  - {fileID: 5062855125606849557}
+  - {fileID: 7312217231372624154}
+  - {fileID: 2860428928406737257}
+  - {fileID: 7947996569663739004}
+  - {fileID: 2395785891151781308}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3740770765440757391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5780386699984596613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2787566376a0df044981e4b6fc453584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStarted: 0
+  gamePaused: 0
+  gameEnded: 0
+  enemySpawner: {fileID: 4746589906829721990}
+  startButton: {fileID: 6958486461196675914, guid: b297c6a8c41115b4dba51647f8352883, type: 3}
+  startMenuUI: {fileID: 0}
+  gameOverUI: {fileID: 0}
+  settlementUI: {fileID: 0}
+  player: {fileID: 0}
+  gameOverUIController: {fileID: 0}
+  BackgroundTexture: {fileID: 0}
+  BackgroundCamera: {fileID: 0}
+  StartButton_Prefab: {fileID: 8813629570850192562, guid: b297c6a8c41115b4dba51647f8352883, type: 3}
+  menuBGMType: 0
+  battleBGMType: 1
+  gameOverBGMType: 4
+  gameOverDelay: 2
+--- !u!114 &4746589906829721990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5780386699984596613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba0012f45f664a4fbc70ae0450263ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 4731542495456823571}
+  - {fileID: 8286304895010461499}
+  - {fileID: 5062855125606849557}
+  - {fileID: 7312217231372624154}
+  - {fileID: 2860428928406737257}
+  - {fileID: 7947996569663739004}
+  spawnRadius: 20
+  playerCamera: {fileID: 0}
+  enemyCombinations:
+  - combinationName: L0_Targets
+    enemyPrefabs:
+    - {fileID: 1338901600208956336, guid: 1609767033492834587603175a4819d3, type: 3}
+    enemyCounts: 08000000
+    spawnWeights:
+    - 1
+  - combinationName: L0_Dogs
+    enemyPrefabs:
+    - {fileID: 1338901600208956336, guid: 1609767033492834587603175a4819d3, type: 3}
+    - {fileID: 1597041583943531088, guid: cfd54c7c83cf8b34b8f10bff1f9ba4d0, type: 3}
+    enemyCounts: 0500000005000000
+    spawnWeights:
+    - 1
+  - combinationName: L0_Mix
+    enemyPrefabs:
+    - {fileID: 1597041583943531088, guid: cfd54c7c83cf8b34b8f10bff1f9ba4d0, type: 3}
+    - {fileID: 415387133312971455, guid: e3cc7f72bbb52b244a59a3d890b7b84c, type: 3}
+    - {fileID: 1338901600208956336, guid: 1609767033492834587603175a4819d3, type: 3}
+    enemyCounts: 060000000600000006000000
+    spawnWeights:
+    - 1
+  - combinationName: L1_Shields
+    enemyPrefabs:
+    - {fileID: 415387133312971455, guid: e3cc7f72bbb52b244a59a3d890b7b84c, type: 3}
+    - {fileID: 1597041583943531088, guid: cfd54c7c83cf8b34b8f10bff1f9ba4d0, type: 3}
+    - {fileID: 7943172389012755816, guid: 3fa1ee8844c5cb7498d71138fda1fbf6, type: 3}
+    enemyCounts: 020000000200000002000000
+    spawnWeights:
+    - 1
+    - 1
+    - 1
+  - combinationName: L1_Hackers
+    enemyPrefabs:
+    - {fileID: 5506585549926580778, guid: ffb0401489464b94bae0da42a6bf98ea, type: 3}
+    - {fileID: 8719866328499634785, guid: 4f523802a0408be4ea59d3c93b96326f, type: 3}
+    enemyCounts: 0400000004000000
+    spawnWeights:
+    - 1
+    - 1
+  - combinationName: L1_Mix
+    enemyPrefabs:
+    - {fileID: 7943172389012755816, guid: 3fa1ee8844c5cb7498d71138fda1fbf6, type: 3}
+    - {fileID: 5506585549926580778, guid: ffb0401489464b94bae0da42a6bf98ea, type: 3}
+    - {fileID: 2153542950278279805, guid: a973ebf0ab8fbc64c8553b1562a17ab7, type: 3}
+    enemyCounts: 030000000600000006000000
+    spawnWeights:
+    - 1
+  - combinationName: L2_DroneSwarm
+    enemyPrefabs:
+    - {fileID: 7943172389012755816, guid: d16bab21c5bd15447bdb4e20c09ebc0b, type: 3}
+    enemyCounts: 08000000
+    spawnWeights:
+    - 1
+  - combinationName: L2_Turrets
+    enemyPrefabs:
+    - {fileID: 2153542950278279805, guid: a973ebf0ab8fbc64c8553b1562a17ab7, type: 3}
+    - {fileID: 6385182945797420866, guid: 4c01993fb1b91f240a48ca2d902812c3, type: 3}
+    enemyCounts: 0500000005000000
+    spawnWeights:
+    - 1
+    - 1
+  - combinationName: L2_Mix
+    enemyPrefabs:
+    - {fileID: 7943172389012755816, guid: d16bab21c5bd15447bdb4e20c09ebc0b, type: 3}
+    - {fileID: 415387133312971455, guid: e3cc7f72bbb52b244a59a3d890b7b84c, type: 3}
+    - {fileID: 2153542950278279805, guid: a973ebf0ab8fbc64c8553b1562a17ab7, type: 3}
+    enemyCounts: 060000000600000006000000
+    spawnWeights:
+    - 1
+  - combinationName: L3_Hackers
+    enemyPrefabs:
+    - {fileID: 5506585549926580778, guid: ffb0401489464b94bae0da42a6bf98ea, type: 3}
+    enemyCounts: 0a000000
+    spawnWeights:
+    - 1
+  - combinationName: L3_Trap
+    enemyPrefabs:
+    - {fileID: 5004625800798680243, guid: dd8b89b4c133eb84990127ca7787cc9e, type: 3}
+    - {fileID: 7943172389012755816, guid: d16bab21c5bd15447bdb4e20c09ebc0b, type: 3}
+    enemyCounts: 0700000007000000
+    spawnWeights:
+    - 1
+  - combinationName: L3_HostileTargets
+    enemyPrefabs:
+    - {fileID: 6932263995163723781, guid: 1ad2485dfb1facb4c8a9db69ed0af458, type: 3}
+    - {fileID: 7943172389012755816, guid: 3fa1ee8844c5cb7498d71138fda1fbf6, type: 3}
+    - {fileID: 5004625800798680243, guid: 183c145619b955242845704d49f4a9bd, type: 3}
+    enemyCounts: 060000000600000006000000
+    spawnWeights:
+    - 1
+    - 1
+  - combinationName: L4_Jellyfish
+    enemyPrefabs:
+    - {fileID: 6160109116396322403, guid: 28d8c8e81be0c5048a9c8ff876cab862, type: 3}
+    enemyCounts: 0a000000
+    spawnWeights:
+    - 1
+  - combinationName: L4_Explosion
+    enemyPrefabs:
+    - {fileID: 5004625800798680243, guid: dd8b89b4c133eb84990127ca7787cc9e, type: 3}
+    - {fileID: 6160109116396322403, guid: 28d8c8e81be0c5048a9c8ff876cab862, type: 3}
+    enemyCounts: 0600000006000000
+    spawnWeights:
+    - 1
+  - combinationName: L4_HeavyWalls
+    enemyPrefabs:
+    - {fileID: 415387133312971455, guid: e3cc7f72bbb52b244a59a3d890b7b84c, type: 3}
+    - {fileID: 5004625800798680243, guid: dd8b89b4c133eb84990127ca7787cc9e, type: 3}
+    - {fileID: 6160109116396322403, guid: 28d8c8e81be0c5048a9c8ff876cab862, type: 3}
+    enemyCounts: 060000000600000006000000
+    spawnWeights:
+    - 1
+  - combinationName: L5_AllStars
+    enemyPrefabs:
+    - {fileID: 415387133312971455, guid: e3cc7f72bbb52b244a59a3d890b7b84c, type: 3}
+    - {fileID: 5004625800798680243, guid: dd8b89b4c133eb84990127ca7787cc9e, type: 3}
+    - {fileID: 5506585549926580778, guid: ffb0401489464b94bae0da42a6bf98ea, type: 3}
+    - {fileID: 8719866328499634785, guid: 4f523802a0408be4ea59d3c93b96326f, type: 3}
+    enemyCounts: 06000000060000000600000006000000
+    spawnWeights:
+    - 1
+  levels:
+  - levelName: Level 0 The Forest
+    spawnWaves:
+    - waveName: Think1
+      waveType: 1
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 1
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_1
+      thinkDisplayDuration: 3
+      sceneId: 5
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Think2
+      waveType: 1
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 5
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_2
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 0
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Think3
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 1
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_3
+      thinkDisplayDuration: 3
+      sceneId: 3
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: ChangeScene
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 6
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_5
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Tutorial
+      waveType: 0
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 0
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_5
+      thinkDisplayDuration: 3
+      sceneId: 2
+      bgmType: 1
+      forceRestart: 0
+      dialogues:
+      - dialogue_id: Level_0_talk_1
+        duration_time: 3
+        delay_time: 0
+      - dialogue_id: Level_0_talk_2
+        duration_time: 3
+        delay_time: 0
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Dog Fight
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 1
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 2
+      bgmType: 1
+      forceRestart: 0
+      dialogues:
+      - dialogue_id: Level_0_talk_3
+        duration_time: 3
+        delay_time: 0
+      spawnInterval: 1.2
+      waveDelay: 0
+    - waveName: Alert Talk
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 1
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Talk_L0_Alert
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Move Deep
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 1
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_5
+      thinkDisplayDuration: 3
+      sceneId: 1
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Hard Fight
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 2
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_5
+      thinkDisplayDuration: 3
+      sceneId: 2
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0.8
+      waveDelay: 0
+    - waveName: Pre-Boss
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 1
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: L0_PreBoss
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    spawnBosses:
+    - bossPrefab: {fileID: 8723339257006366382, guid: 1be6ba229ecd7124c8150a718d2541d1, type: 3}
+      SpawnAfterLastWave: 1
+      SpawnAfterSomeTime: 0
+      SpawnTime: 0
+      IsLastBoss: 1
+    levelBGMVolume: 1
+    levelAmbientColor: {r: 0, g: 0, b: 0, a: 0}
+  - levelName: Level 1 Cyber-Dojo
+    spawnWaves:
+    - waveName: Introthink
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 3
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: L1_Start
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Entergate
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 2
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 2
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: ShieldGuard
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 3
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: HackerAmbush
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 4
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 1
+      waveDelay: 0
+    - waveName: shield
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 5
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Talk_L1_Shield
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Musicup
+      waveType: 0
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 8
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 1
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Entergarden
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 12
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_8
+      thinkDisplayDuration: 3
+      sceneId: 3
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 1
+      waveDelay: 1
+    - waveName: Mixedfight
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 5
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 1.5
+      waveDelay: 0
+    spawnBosses:
+    - bossPrefab: {fileID: 8723339257006366382, guid: 357c531e4ea044847b71c77a3719fb83, type: 3}
+      SpawnAfterLastWave: 1
+      SpawnAfterSomeTime: 0
+      SpawnTime: 0
+      IsLastBoss: 1
+    levelBGMVolume: 0
+    levelAmbientColor: {r: 0, g: 0, b: 0, a: 0}
+  - levelName: Level 2 High-Speed Train
+    spawnWaves:
+    - waveName: Start
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 8
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: L2_Start
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: EnterCargo
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 2
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 4
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: DroneRush
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 6
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0.3
+      waveDelay: 0
+    - waveName: WindTalk
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 10
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Talk_L2_Wind
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: ToRoof
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 12
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_8
+      thinkDisplayDuration: 3
+      sceneId: 5
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Turrets
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 7
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 1.2
+      waveDelay: 0
+    - waveName: Chaos
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 8
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0.8
+      waveDelay: 0
+    spawnBosses:
+    - bossPrefab: {fileID: 8723339257006366382, guid: 299bb2752ff642d4f8221fa7913f779e, type: 3}
+      SpawnAfterLastWave: 1
+      SpawnAfterSomeTime: 0
+      SpawnTime: 0
+      IsLastBoss: 1
+    levelBGMVolume: 0
+    levelAmbientColor: {r: 0, g: 0, b: 0, a: 0}
+  - levelName: Level 3 DataSpace
+    spawnWaves:
+    - waveName: Intro
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 11
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: L3_Intro
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Upload
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 2
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 6
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Teleport Hack
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 9
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0.8
+      waveDelay: 0
+    - waveName: Net Trap
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 10
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 1.5
+      waveDelay: 0
+    - waveName: Trap
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 11
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Talk_L3_Trap
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: To Core
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 12
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_8
+      thinkDisplayDuration: 3
+      sceneId: 7
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Hostile
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 11
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0.5
+      waveDelay: 0
+    spawnBosses:
+    - bossPrefab: {fileID: 8723339257006366382, guid: 1a3a35462f76a794895b120860564d91, type: 3}
+      SpawnAfterLastWave: 1
+      SpawnAfterSomeTime: 0
+      SpawnTime: 0
+      IsLastBoss: 1
+    levelBGMVolume: 0
+    levelAmbientColor: {r: 0, g: 0, b: 0, a: 0}
+  - levelName: Level 4 DeepSea
+    spawnWaves:
+    - waveName: Start
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 14
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: L4_Start
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Dive
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 2
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 8
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Jellyfish
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 12
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 1.2
+      waveDelay: 0
+    - waveName: Oxygen Talk
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 0
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Talk_L4_Oxygen
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: To Lab
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 12
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_8
+      thinkDisplayDuration: 3
+      sceneId: 9
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Explosion
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 13
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 1.2
+      waveDelay: 0
+    - waveName: Tank Wall
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 14
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    spawnBosses:
+    - bossPrefab: {fileID: 8723339257006366382, guid: 32856e1af3c5f154d98e4c4a2abdcda8, type: 3}
+      SpawnAfterLastWave: 1
+      SpawnAfterSomeTime: 0
+      SpawnTime: 0
+      IsLastBoss: 1
+    levelBGMVolume: 0
+    levelAmbientColor: {r: 0, g: 0, b: 0, a: 0}
+  - levelName: Level 5 The Core
+    spawnWaves:
+    - waveName: Think6
+      waveType: 1
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 0
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_6
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 3
+      waveDelay: 0
+    - waveName: Think7
+      waveType: 1
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 3
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_7
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: ChangeScene
+      waveType: 0
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 2
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 10
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: All stars
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 15
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 1.5
+      waveDelay: 0
+    - waveName: Enemy7
+      waveType: 0
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 11
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_9
+      thinkDisplayDuration: 4
+      sceneId: 6
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Enemy8
+      waveType: 0
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 8
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Enemy9
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 9
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Final talk
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 10
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Talk_L5_Warning
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Reality Crash
+      waveType: 2
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 12
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_8
+      thinkDisplayDuration: 3
+      sceneId: 11
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 0
+      waveDelay: 0
+    - waveName: Enemy12
+      waveType: 0
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 12
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: 
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Enemy3
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 3
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_9
+      thinkDisplayDuration: 3
+      sceneId: 6
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Think8
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 12
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_8
+      thinkDisplayDuration: 3
+      sceneId: 0
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Think9
+      waveType: 1
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 12
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_9
+      thinkDisplayDuration: 3
+      sceneId: 6
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Enemy4
+      waveType: 0
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 3
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_9
+      thinkDisplayDuration: 4
+      sceneId: 6
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: Enemy10
+      waveType: 0
+      waitForClearField: 1
+      useEnemyCombination: 1
+      enemyCombinationId: 10
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_9
+      thinkDisplayDuration: 4
+      sceneId: 6
+      bgmType: 1
+      forceRestart: 0
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    - waveName: ChangeBGM
+      waveType: 3
+      waitForClearField: 0
+      useEnemyCombination: 1
+      enemyCombinationId: 11
+      enemyPrefab: {fileID: 0}
+      enemyCount: 0
+      thinkId: Level_0_think_9
+      thinkDisplayDuration: 4
+      sceneId: 6
+      bgmType: 2
+      forceRestart: 1
+      dialogues: []
+      spawnInterval: 2
+      waveDelay: 0
+    spawnBosses:
+    - bossPrefab: {fileID: 8723339257006366382, guid: 1be6ba229ecd7124c8150a718d2541d1, type: 3}
+      SpawnAfterLastWave: 0
+      SpawnAfterSomeTime: 1
+      SpawnTime: 60
+      IsLastBoss: 0
+    - bossPrefab: {fileID: 8723339257006366382, guid: 104a33f441be25247bcd682c4de7ac49, type: 3}
+      SpawnAfterLastWave: 1
+      SpawnAfterSomeTime: 0
+      SpawnTime: 0
+      IsLastBoss: 1
+    levelBGMVolume: 0
+    levelAmbientColor: {r: 0, g: 0, b: 0, a: 0}
+  currentLevelIndex: 0
+  autoStartNextLevel: 1
+  autoStartSpawning: 0
+  loopWaves: 0
+  maxEnemiesOnScreen: 10
+  continuousSpawnInterval: 3
+  enemyPrefabs: []
+  BossWarning: {fileID: 0}
+  WaveWarning: {fileID: 0}
+  WaveWarningText: {fileID: 0}
+--- !u!114 &6306974332543087764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5780386699984596613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756c0e8fcba5714498051c8a137070f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgmAudioSource: {fileID: 7019682600387450872}
+  menuBGM: {fileID: 8300000, guid: 18b3afb6ff6045d4db97636191b838c4, type: 3}
+  battleBGM: {fileID: 8300000, guid: e1f321346c488ac41976c293749c598e, type: 3}
+  bossBGM: {fileID: 8300000, guid: d1a43bb4da3de3843b7be99d3ed4cbcc, type: 3}
+  victoryBGM: {fileID: 0}
+  gameOverBGM: {fileID: 0}
+  masterVolume: 0.7
+  bgmVolume: 0.8
+  fadeInDuration: 2
+  fadeOutDuration: 1
+  smoothTransition: 1
+  playOnStart: 1
+  loopBGM: 1
+--- !u!82 &7019682600387450872
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5780386699984596613}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &8723428982120831953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5780386699984596613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9b611ed084ee04d9dec831915e4c71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBarPrefab: {fileID: 4345566802660733377, guid: 263b04ff9edf7c74987124db83209382, type: 3}
+  healthBarHeight: 40
+  healthBarScale: 1
+  showHealthBarWhenFull: 0
+  hideDelay: 2
+  fullHealthColor: {r: 1, g: 1, b: 1, a: 1}
+  lowHealthColor: {r: 1, g: 1, b: 1, a: 1}
+  lowHealthThreshold: 0.3
+--- !u!114 &8112448415835346791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5780386699984596613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a29f70bc5850342a81109663e685bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpConfigs:
+  - powerUpType: 0
+    powerUpName: Shotgun
+    dropChance: 0.3
+    powerUpPrefab: {fileID: 8382957259708083949, guid: 8181856db95e721479ce9e801b4d21c9, type: 3}
+    shotgunAmmo: 10
+    shotgunScaleMultiplier: 3
+    rapidFireDuration: 0
+    rapidFireInterval: 0
+    healAmount: 0
+    pulseDamage: 0
+    pulseRadius: 0
+  - powerUpType: 1
+    powerUpName: Rapid Fire
+    dropChance: 0.3
+    powerUpPrefab: {fileID: 8382957259708083949, guid: ecef79637910be0468f0e18463981bfe, type: 3}
+    shotgunAmmo: 10
+    shotgunScaleMultiplier: 3
+    rapidFireDuration: 10
+    rapidFireInterval: 0.1
+    healAmount: 0
+    pulseDamage: 0
+    pulseRadius: 0
+  - powerUpType: 3
+    powerUpName: Pulse Grenade
+    dropChance: 0.3
+    powerUpPrefab: {fileID: 8382957259708083949, guid: 4443ab3d3bbca8f4ab0b06639c1e167d, type: 3}
+    shotgunAmmo: 10
+    shotgunScaleMultiplier: 3
+    rapidFireDuration: 0
+    rapidFireInterval: 0
+    healAmount: 0
+    pulseDamage: 10
+    pulseRadius: 1000
+  enablePowerUpDrop: 1
+  globalDropChanceMultiplier: 1
+--- !u!114 &4845956619188987444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5780386699984596613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0cf46378bc23194c9dbdd4c3ff89abb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverGrid: 00000101010101000000
+  screenWidthDivisions: 10
+  coverPrefab: {fileID: 387641774931703493, guid: 249a6088d0899114e909bf3a94be8b7d, type: 3}
+  perfectCoverSprite: {fileID: 21300000, guid: 3c59d3718c2be8d49954a081cc40cc15, type: 3}
+  damagedCoverSprite: {fileID: 21300000, guid: 61a998d0222c786468bf97dc32c38b5f, type: 3}
+  defaultCoverHealth: 100
+  perfectCoverHeight: 60
+  damagedCoverHeight: 45
+  showDebugInfo: 0

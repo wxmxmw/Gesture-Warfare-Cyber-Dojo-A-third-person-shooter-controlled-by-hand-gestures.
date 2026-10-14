@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: 58210985f097c2240b1c331da3f4ce58
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_0"
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 313
+        width: 84
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.620453, y: -46.493164}
+        - {x: 18.403809, y: -47.14377}
+        - {x: -25.336899, y: -49.988586}
+        - {x: -33.345383, y: -25.202606}
+        - {x: -28.059265, y: 29.344482}
+        - {x: -8.738266, y: 41.7099}
+        - {x: 15.219757, y: 41.7099}
+        - {x: 36.859283, y: 20.070404}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22e8955cf830fe4fbaed954fcc05539
+      internalID: -761495949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_1"
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 396
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -192.7679, y: -207.39384}
+        - {x: -191.22223, y: 206.84818}
+        - {x: -29.698792, y: 208.39386}
+        - {x: -30.915451, y: 89.26456}
+        - {x: 187.03088, y: 90.93738}
+        - {x: 186.36398, y: 31.232605}
+        - {x: 115.42319, y: 28.605972}
+        - {x: 106.78064, y: -0.19047546}
+        - {x: 81.22772, y: 1.5753174}
+        - {x: 72.95581, y: 28.982803}
+        - {x: 44.275513, y: 25.99228}
+        - {x: 42.299927, y: -25.427536}
+        - {x: -74.19391, y: -35.286514}
+        - {x: -60.467285, y: -111.028625}
+        - {x: -59.839493, y: -206.621}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbb2c5a4cc704149bc985ba251ec68e
+      internalID: 384898364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_2"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 12
+        width: 80
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.322662, y: -79.73587}
+        - {x: -24.994339, y: 0.39237976}
+        - {x: -38.177277, y: 20.958084}
+        - {x: -38.022217, y: 78.22101}
+        - {x: 35.397537, y: 79.76668}
+        - {x: 35.397537, y: -80.21111}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76391b98c9c87f4e97e6732abfecfd1
+      internalID: -2047821525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_3"
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 10
+        width: 75
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.378006, y: -102.83784}
+        - {x: -34.17392, y: 41.17206}
+        - {x: -11.909058, y: 44.65631}
+        - {x: -12.965637, y: 100.41896}
+        - {x: 30.313354, y: 102.73749}
+        - {x: 31.859009, y: -102.83784}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c4b939a26ea3146b90d73825337ec6
+      internalID: 855812847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_4"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 335
+        width: 94
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614abb53ca1236e4d89118d9464f885e
+      internalID: -1903588545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_5"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 331
+        width: 89
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3432e68a8c320ef459b1b44c62b5659a
+      internalID: 183682008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_6"
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 16
+        width: 166
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82.85779, y: -195.87836}
+        - {x: -83, y: 107.348755}
+        - {x: 1.6842346, y: 102.30762}
+        - {x: 6.791626, y: 192.08707}
+        - {x: 79.43854, y: 195.17844}
+        - {x: 79.43854, y: -195.87836}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0003b55e4d9704e4cb8dbd3b80dc463b
+      internalID: -1322117616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_7"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 99
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: -121.5}
+        - {x: -49.5, y: 85.788956}
+        - {x: -33.29843, y: 85.75758}
+        - {x: -32.569183, y: 121.5}
+        - {x: 49.5, y: 121.5}
+        - {x: 49.5, y: -121.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be0de8a5783dda419a77aa095beff58
+      internalID: 1037734051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_0": -761495949
+      "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_1": 384898364
+      "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_2": -2047821525
+      "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_3": 855812847
+      "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_4": -1903588545
+      "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_5": 183682008
+      "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_6": -1322117616
+      "\u57CE\u5E02\u524D\u666F\u88C5\u9970\u7EC41_pixian_ai_7": 1037734051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

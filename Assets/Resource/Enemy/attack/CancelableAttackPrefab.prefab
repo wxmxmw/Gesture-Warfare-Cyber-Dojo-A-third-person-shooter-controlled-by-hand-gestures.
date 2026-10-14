@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &817915125966177398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 942156707364464449}
+  - component: {fileID: 6476350579649349195}
+  m_Layer: 0
+  m_Name: CancelableAttackPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &942156707364464449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817915125966177398}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6476350579649349195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817915125966177398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3133ed58e288b4ca16f6d904a8c3e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 50
+  playerLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  enableDebugLogs: 1
+  targetCount: 3
+  targetSpread: 50
+  attackDuration: 10
+  targetHitRadius: 5
+  type: 0
+  enableBeamEffect: 1
+  beamDuration: 0.6
+  beamColor: {r: 1, g: 0.95112175, b: 0.8066038, a: 1}
+  beamWidth: 2
+  beamEffectPrefab: {fileID: 0}
+  targetPrefab: {fileID: 6674966901158318417, guid: 840ecdc8efe63c84e8b608fb11c5fec5, type: 3}
+  targetColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  targetScale: 10
+  finalAttackRadius: 3
+  attackEffectPrefab: {fileID: 0}
+  enableTargetAnimations: 1
+  targetAppearDuration: 0.5
+  targetDisappearDuration: 0.5
+  targetAppearStartScale: {x: 10, y: 10, z: 10}
+  targetAppearRotationSpeed: 360
+  targetDisappearEffectPrefab: {fileID: 0}

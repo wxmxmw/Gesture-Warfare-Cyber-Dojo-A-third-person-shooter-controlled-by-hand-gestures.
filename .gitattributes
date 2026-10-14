@@ -1,0 +1,4 @@
+# Large assets required by the Unity project
+Assets/com.github.homuler.mediapipe/Runtime/Plugins/Android/mediapipe_android.aar filter=lfs diff=lfs merge=lfs -text
+Assets/com.github.homuler.mediapipe/Runtime/Plugins/libmediapipe_c.dylib filter=lfs diff=lfs merge=lfs -text
+"Assets/Fonts/simfang SDF.asset" filter=lfs diff=lfs merge=lfs -text

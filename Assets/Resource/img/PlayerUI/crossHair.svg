@@ -1,0 +1,29 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- 外圆环 -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#00ff00" stroke-width="2" opacity="0.8"/>
+  
+  <!-- 内圆环 -->
+  <circle cx="32" cy="32" r="20" fill="none" stroke="#00ff00" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 中心点 -->
+  <circle cx="32" cy="32" r="2" fill="#ff0000" opacity="0.9"/>
+  
+  <!-- 十字线 -->
+  <line x1="32" y1="12" x2="32" y2="22" stroke="#00ff00" stroke-width="2" opacity="0.8"/>
+  <line x1="32" y1="42" x2="32" y2="52" stroke="#00ff00" stroke-width="2" opacity="0.8"/>
+  <line x1="12" y1="32" x2="22" y2="32" stroke="#00ff00" stroke-width="2" opacity="0.8"/>
+  <line x1="42" y1="32" x2="52" y2="32" stroke="#00ff00" stroke-width="2" opacity="0.8"/>
+  
+  <!-- 角标记 -->
+  <line x1="20" y1="20" x2="24" y2="20" stroke="#00ff00" stroke-width="1" opacity="0.7"/>
+  <line x1="20" y1="20" x2="20" y2="24" stroke="#00ff00" stroke-width="1" opacity="0.7"/>
+  
+  <line x1="44" y1="20" x2="40" y2="20" stroke="#00ff00" stroke-width="1" opacity="0.7"/>
+  <line x1="44" y1="20" x2="44" y2="24" stroke="#00ff00" stroke-width="1" opacity="0.7"/>
+  
+  <line x1="20" y1="44" x2="24" y2="44" stroke="#00ff00" stroke-width="1" opacity="0.7"/>
+  <line x1="20" y1="44" x2="20" y2="40" stroke="#00ff00" stroke-width="1" opacity="0.7"/>
+  
+  <line x1="44" y1="44" x2="40" y2="44" stroke="#00ff00" stroke-width="1" opacity="0.7"/>
+  <line x1="44" y1="44" x2="44" y2="40" stroke="#00ff00" stroke-width="1" opacity="0.7"/>
+</svg>

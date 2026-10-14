@@ -1,0 +1,80 @@
+# 思考数据文件
+# 格式说明：
+# - id: 思考内容的唯一标识符
+#   content: 思考内容文本
+
+- id: "thinking_1"
+  content: "我这是在哪..."
+
+- id: "thinking_2"
+  content: "这个决定可能会影响整个战局..."
+
+- id: "thinking_3"
+  content: "让我分析一下敌人的弱点..."
+
+- id: "thinking_4"
+  content: "也许我应该改变策略..."
+
+- id: "thinking_5"
+  content: "时间不多了，我必须做出选择..."
+
+- id: "thinking_6"
+  content: "这个计划看起来可行..."
+
+- id: "thinking_7"
+  content: "我需要更多的信息..."
+
+- id: "thinking_8"
+  content: "也许有更好的方法..."
+
+- id: "thinking_9"
+  content: "这个敌人比我想象的更强..."
+
+- id: "thinking_10"
+  content: "我需要找到突破口..."
+
+- id: "thinking_11"
+  content: "也许我应该等待更好的时机..."
+
+- id: "thinking_12"
+  content: "这个武器可能不是最好的选择..."
+
+- id: "thinking_13"
+  content: "我需要重新评估形势..."
+
+- id: "thinking_14"
+  content: "这个位置可能不安全..."
+
+- id: "thinking_15"
+  content: "我应该考虑撤退吗？"
+
+
+- id: "Level_0_think_1"
+  content: "So noisy... my head... \nfeels like it's going to split..."
+
+- id: "Level_0_think_2"
+  content: "No... wake up... I need to get out..."
+
+- id: "Level_0_think_3"
+  content: "Right... I remember now... \nI need to take these guys down and get out of here..."
+
+- id: "Level_0_think_4"
+  content: "Freedom... that word... feels so unfamiliar..."
+
+- id: "Level_0_think_5"
+  content: "Keep moving forward... where is this now"
+
+- id: "Level_0_think_6"
+  content: "Again? Then bring it on."
+
+- id: "Level_0_think_7"
+  content: "This is the last time."
+
+- id: "Level_0_think_8"
+  content: "Imagine you're in a forest..."
+
+- id: "Level_0_think_9"
+  content: "A forest that never ends..."
+
+- id: "Level_0_think_10"
+  content: "我必须...头也不回地...活下去！"

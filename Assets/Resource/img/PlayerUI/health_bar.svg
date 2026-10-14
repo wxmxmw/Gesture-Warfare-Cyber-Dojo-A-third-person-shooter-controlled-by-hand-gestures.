@@ -1,0 +1,31 @@
+<svg width="256" height="32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="healthGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#ff4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6666;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#0088ff;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0044ff;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 外边框 -->
+  <rect x="0" y="0" width="256" height="32" fill="none" stroke="url(#borderGradient)" stroke-width="2" rx="4" ry="4"/>
+  
+  <!-- 背景 -->
+  <rect x="2" y="2" width="252" height="28" fill="#001122" fill-opacity="0.7" rx="2" ry="2"/>
+  
+  <!-- 生命值条 -->
+  <rect x="4" y="4" width="248" height="24" fill="url(#healthGradient)" rx="2" ry="2"/>
+  
+  <!-- 内部光效 -->
+  <rect x="4" y="4" width="248" height="8" fill="#ffffff" fill-opacity="0.3" rx="2" ry="2"/>
+  
+  <!-- 分割线效果 -->
+  <line x1="64" y1="4" x2="64" y2="28" stroke="#ffffff" stroke-width="1" stroke-opacity="0.2"/>
+  <line x1="128" y1="4" x2="128" y2="28" stroke="#ffffff" stroke-width="1" stroke-opacity="0.2"/>
+  <line x1="192" y1="4" x2="192" y2="28" stroke="#ffffff" stroke-width="1" stroke-opacity="0.2"/>
+</svg>

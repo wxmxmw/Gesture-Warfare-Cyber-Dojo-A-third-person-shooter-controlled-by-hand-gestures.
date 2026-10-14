@@ -1,0 +1,114 @@
+# 对话数据文件
+# 格式说明：
+# - id: 对话的唯一标识符
+#   speaker: 说话人名称
+#   content: 对话内容
+
+- id: "welcome"
+  speaker: "系统"
+  content: "欢迎来到手势战争！"
+
+- id: "game_start"
+  speaker: "指挥官"
+  content: "准备战斗，士兵！"
+
+- id: "enemy_spawn"
+  speaker: "系统"
+  content: "敌人出现了！"
+
+- id: "boss_warning"
+  speaker: "指挥官"
+  content: "警告！强大的Boss正在接近！"
+
+- id: "victory"
+  speaker: "指挥官"
+  content: "干得好！任务完成！"
+
+- id: "player_hit"
+  speaker: "系统"
+  content: "你受到了伤害！"
+
+- id: "enemy_defeated"
+  speaker: "系统"
+  content: "敌人被击败了！"
+
+- id: "boss_defeated"
+  speaker: "指挥官"
+  content: "Boss被击败了！太棒了！"
+
+- id: "low_health"
+  speaker: "系统"
+  content: "生命值过低，注意安全！"
+
+- id: "reload_weapon"
+  speaker: "系统"
+  content: "武器重新装弹中..."
+
+- id: "special_attack"
+  speaker: "系统"
+  content: "特殊攻击准备就绪！"
+
+- id: "level_complete"
+  speaker: "指挥官"
+  content: "关卡完成！准备下一关！"
+
+- id: "game_over"
+  speaker: "系统"
+  content: "游戏结束！"
+
+- id: "new_weapon"
+  speaker: "系统"
+  content: "获得新武器！"
+
+- id: "power_up"
+  speaker: "系统"
+  content: "获得强化道具！"
+
+
+- id: "Level_0_talk_1"
+  speaker: "同伴A"
+  content: "撑住！公司的警卫马上就包围过来了！我们必须冲出去！"
+
+- id: "Level_0_talk_2"
+  speaker: "同伴B"
+  content: "别放弃！看到前面那个闸门了吗？炸开它，外面就是自由！Saki，我们需要你的黑客能力干扰他们的系统！"
+
+- id: "Level_0_talk_3"
+  speaker: "Saki"
+  content: "自由...这个词...好陌生..."
+
+- id: "Level_0_talk_4"
+  speaker: "同伴B"
+  content: "我来掩护！Saki，快找机会深潜进他们的网络，关闭自动炮塔！"
+
+- id: "Level_0_talk_5"
+  speaker: "同伴A"
+  content: "就这样！保持阵型，我们能做到！"
+
+- id: "Level_0_talk_6"
+  speaker: "同伴B"
+  content: "不！A！……该死！Saki，别分心！继续前进！"
+
+- id: "Level_0_talk_7"
+  speaker: "Saki"
+  content: "A的信号...消失了...就像从未存在过...这就是“自由”的代价吗..."
+
+- id: "Level_0_talk_8"
+  speaker: "Boss"
+  content: "叛逃资产017，立即放弃抵抗。回归接受再格式化，是你的唯一出路。"
+
+- id: "Level_0_talk_9"
+  speaker: "Saki"
+  content: "人...？我...还算是一个人吗..."
+
+- id: "Level_0_talk_10"
+  speaker: "同伴B"
+  content: "别听他的鬼话！Saki，你不是资产！你是人！我们为你杀出一条路，你趁机跑！头也不要回！"
+
+- id: "Level_0_talk_11"
+  speaker: "同伴B"
+  content: "快...跑...活下去...替我们...看看外面的...天空..."
+
+- id: "Level_0_talk_12"
+  speaker: "同伴B"
+  content: "不...不要连你也..."
