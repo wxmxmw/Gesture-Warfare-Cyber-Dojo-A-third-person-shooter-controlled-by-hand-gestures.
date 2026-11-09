@@ -2,6 +2,8 @@
 
 A gesture-controlled shooter built with Unity and MediaPipe hand tracking.
 
+An English guide to the project's AI art production process, with the original screenshots preserved, is available in [Documentation/AI_Art_Workflow_Guide_EN.docx](Documentation/AI_Art_Workflow_Guide_EN.docx).
+
 ## Gameplay
 
 Use a webcam to control combat with your hands. The game recognizes gestures for aiming and shooting in sniper mode, shooting in pistol mode, throwing a pulse grenade, and pausing. Fight through enemy waves and bosses, use cover, and advance through the levels. An in-game gesture tutorial introduces the controls.
