@@ -2,8 +2,6 @@
 
 A gesture-controlled shooter built with Unity and MediaPipe hand tracking.
 
-An English guide to the project's AI art production process, with the original screenshots preserved, is available in [Documentation/AI_Art_Workflow_Guide_EN.docx](Documentation/AI_Art_Workflow_Guide_EN.docx).
-
 ## Gameplay
 
 Use a webcam to control combat with your hands. The game recognizes gestures for aiming and shooting in sniper mode, shooting in pistol mode, throwing a pulse grenade, and pausing. Fight through enemy waves and bosses, use cover, and advance through the levels. An in-game gesture tutorial introduces the controls.
@@ -38,6 +36,6 @@ Unity package dependencies are declared in `Packages/manifest.json` and `Package
 | Disk space | The source assets are about 1.1 GB, and local Unity-generated data can use several additional gigabytes; leave room for imports and builds |
 | CPU, GPU, and RAM | No tested minimum specification is available yet; validate the game on the devices you intend to support |
 
-## Publication notes
+## Asset provenance
 
-The project contains third-party Unity assets, fonts, and music. Check their redistribution terms before publishing a public repository or build. The email login code currently contains a hard-coded HTTP service address; review the service configuration and transport security before a public release.
+The assets used in this project are either free third-party products or personally generated with AI. The generation process is documented in the [AI Art Workflow Guide](Documentation/AI_Art_Workflow_Guide_EN.docx).
